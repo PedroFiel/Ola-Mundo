@@ -1,7 +1,11 @@
+import Banner from "components/Banner";
+
 export default function Inicio() {
     return (
-        <div>
+        <main>
+            <Banner />
+
             <h1>Inicio</h1>
-        </div>
+        </main>
     );
 }
