@@ -8,7 +8,7 @@
     color: var(--branco);
     border: 3px solid var(--azul-medio);
     cursor: pointer;
-    transition: 0.2s
+    transition: all 0.3s ease-in-out;
 }
 
 .botaoPrincipal.lg{
@@ -17,6 +17,13 @@
     line-height: 1.125rem;
 }
 
+.botaoPrincipal.lg:hover{
+    padding: 1.5rem 3rem;
+    opacity: 0.8;
+}
+
+
 .botaoPrincipal:hover {
-    border: 3px solid var(--azul-escuro);
+    padding: 0.75rem 1.8rem;
+    opacity: 0.8;
 }

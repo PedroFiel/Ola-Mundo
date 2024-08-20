@@ -16,6 +16,7 @@
     position: absolute;
     top: 0;
     z-index: -1;
+    background-position: center;
 }
 
 .titulo {
@@ -24,6 +25,7 @@
     font-size: 4rem;
     display: flex;
     align-items: center;
+    color: #0f0f0f;
 }
 
 .postConteudoContainer {

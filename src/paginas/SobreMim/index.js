@@ -2,7 +2,7 @@ import PostModelo from "components/PostModelo";
 import styles from "./SobreMim.module.css";
 
 import fotoCapa from "assets/sobre_mim_capa.png";
-import fotoSobreMim from "assets/sobre_mim_foto.png"
+import fotoSobreMim from "assets/sobre_mim_foto.jpeg"
 
 export default function SobreMim() {
     return (
@@ -11,7 +11,7 @@ export default function SobreMim() {
             titulo="Sobre mim"
         >
             <h3 className={styles.subtitulo}>
-                Olá, eu sou o Antônio!
+                Olá, eu sou o Pedro!
             </h3>
             
             <img
@@ -20,17 +20,13 @@ export default function SobreMim() {
                 className={styles.fotoSobreMim}
             />
 
-            <p className={styles.paragrafo}>Oi, tudo bem? Eu sou instrutor de Front-end na Alura e estou feliz de te ver por aqui.</p>
+            <p className={styles.paragrafo}>Olá! Sou desenvolvedor de Front-end Shopify na Shakers Agência e estou feliz em compartilhar um pouco da minha trajetória com você. Minha história com a programação começou no Ensino Médio, quando cursei o ensino médio integrado ao curso de Informática. Durante esse período, aprendi lógica de programação e o básico de várias linguagens, como C, JavaScript e Java, embora sem me aprofundar muito em cada uma delas. Sempre gostei de estudar programação, mas na época não imaginava que trabalharia com isso no futuro.</p>
 
-            <p className={styles.paragrafo}>Minha história com programação começou no Instituto Federal do Piauí (IFPI), quando fiz o ensino médio integrado ao curso de Informática. Eu aprendi lógica de programação e o básico de várias linguagens, como PHP, Python, Java, mas sem aprofundar muito em cada uma delas. Eu gostava muito de estudar programação, mas na época não fazia ideia de que trabalharia com isso hoje.</p>
+            <p className={styles.paragrafo}>No ensino superior, escolhi cursar Engenharia da Computação no Centro Universitário Adventista de São Paulo (UNASP). Foi lá que comecei a me aprofundar em conceitos que eram apresentados em sala de aula. Pouco tempo depois, tive minha primeira experiência como desenvolvedor front-end, realizando a manutenção de sites já existentes e tendo a oportunidade de liderar projetos dentro da empresa. Essa experiência me proporcionou um grande aprendizado enquanto codificava.</p>
 
-            <p className={styles.paragrafo}>No ensino superior, escolhi cursar Engenharia Elétrica na Universidade Federal do Piauí (UFPI). Lá eu consegui entrar no PET (Programa de Educação Tutorial), um grupo acadêmico que contribui de diversas formas para o curso. Lá eu tive a oportunidade de estudar desenvolvimento web para ser um dos mantenedores do site deles. </p>
+            <p className={styles.paragrafo}>Com o tempo, fui crescendo na área e tive a oportunidade de ser efetivado, o que me permitiu liderar um squad dentro da empresa onde trabalho. Além disso, faço parte do único curso de Shopify em português do Brasil, onde dou aulas de Shopify para desenvolvedores.</p>
 
-            <p className={styles.paragrafo}>Com isso tive minha experiência de dev mais próxima da realidade, com prazos de implementação para o site, e aprendi muito enquanto codificava.</p>
-
-            <p className={styles.paragrafo}>E foi enquanto eu estava no PET que decidi procurar um estágio em desenvolvimento web. Eu encontrei uma vaga na Alura para o Scuba Team e percebi que ela aliava duas paixões minhas: programação e educação. Para minha felicidade, fui escolhido para fazer parte do time.</p>
-
-            <p className={styles.paragrafo}>Desde então, tem sido aprenas aprendizados atrás de aprendizados. A Alura é uma escola não só para seus alunos e alunas, mas também para os colaboradores e colaboradoras. Hoje sou muito feliz de ter a oportunidade de trazer esses conteúdos ricos e encantadores para você. Espero que aprenda bastante!</p>
+            <p className={styles.paragrafo}>Desde então, tem sido uma jornada de constantes aprendizados. Hoje, sou muito feliz por ter a oportunidade de crescer e mostrar meu trabalho a cada dia. Além de poder aprender novas linguagens como o React</p>
         </PostModelo>
     )
 }
