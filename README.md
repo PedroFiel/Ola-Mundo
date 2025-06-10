@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Olá Mundo - Blog Pessoal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
-## Available Scripts
+## 📋 Sobre o Projeto
 
-In the project directory, you can run:
+Este é um blog pessoal desenvolvido com React.js, onde compartilho conteúdo e experiências. O projeto foi construído com foco em boas práticas de desenvolvimento e uma estrutura organizada, permitindo fácil manutenção e escalabilidade.
 
-### `npm start`
+### ✨ Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🏠 Página inicial com listagem de posts
+- 👤 Seção "Sobre Mim" para informações pessoais
+- 📝 Posts com suporte a Markdown
+- 🔍 Navegação intuitiva entre páginas
+- 📱 Design responsivo
+- 🔄 Rolagem automática ao topo em mudança de rota
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm test`
+- **React.js** - Framework JavaScript para construção da interface
+- **React Router DOM** - Gerenciamento de rotas e navegação
+- **React Markdown** - Renderização de conteúdo em Markdown
+- **CSS Modules** - Estilização com escopo local
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Como Executar o Projeto
 
-### `npm run build`
+### Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (versão 14 ou superior)
+- npm ou yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instalação e Execução
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone o repositório
+```bash
+git clone https://github.com/PedroFiel/Ola-Mundo.git
+```
 
-### `npm run eject`
+2. Instale as dependências
+```bash
+npm install
+# ou
+yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Execute o projeto em modo de desenvolvimento
+```bash
+npm start
+# ou
+yarn start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O projeto estará disponível em [https://ola-mundo-omega-nine.vercel.app/](https://ola-mundo-omega-nine.vercel.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📁 Estrutura do Projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+src/
+  ├── assets/      # Arquivos estáticos (imagens, etc)
+  ├── components/  # Componentes reutilizáveis
+  ├── json/        # Arquivos de dados
+  ├── paginas/     # Páginas da aplicação
+  ├── routes.js    # Configuração de rotas
+  └── index.js     # Ponto de entrada da aplicação
+```
 
-## Learn More
+## 🔧 Scripts Disponíveis
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `npm start` - Inicia o servidor de desenvolvimento
+- `npm build` - Gera a versão de produção
+- `npm test` - Executa os testes
+- `npm eject` - Ejeta as configurações do Create React App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Como Contribuir
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Faça commit das suas alterações (`git commit -m 'Add some AmazingFeature'`)
+4. Faça push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
